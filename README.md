@@ -19,4 +19,5 @@ Done
 
 TODO
 -----
+- [ ] fix size repository
 - [ ] update to opencomputers
