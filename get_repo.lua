@@ -99,7 +99,7 @@ end
 
 local repo = ""
 if debug then
-    repo = "Vany/gh4lua"
+    repo = "zhenyamega/gr4minecraft"
 else
     repo = args[1]
 end
