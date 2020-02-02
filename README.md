@@ -22,4 +22,5 @@ TODO
 - [x] fix size repository
 - [ ] add whitelist
 - [ ] add flag for choice branch
+- [ ] add flag for choice output folder
 - [ ] upgrade to opencomputers
