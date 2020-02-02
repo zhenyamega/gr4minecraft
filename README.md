@@ -19,7 +19,7 @@ Done
 
 TODO
 -----
-- [ ] fix size repository
+- [x] fix size repository
 - [ ] add whitelist
-- [ ] set branch
-- [ ] update to opencomputers
+- [ ] add flag for choice branch
+- [ ] upgrade to opencomputers

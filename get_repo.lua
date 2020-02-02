@@ -71,12 +71,23 @@ function get_dir(data, main_dir)
     end
 end
 
+function get_size_repo(data)
+    result = 0
+
+    for index, item in ipairs(data) do
+        if item["type"] == "dir" then
+            result = result + get_size_repo(item["dir"])
+        else
+            result = result + item["size"]
+        end
+    end
+
+    return result
+end
+
 function get_repo(repo, data)
     -- interactive
-    total_bytes = 0
-    for index, item in ipairs(data) do
-        total_bytes = total_bytes + item["size"]
-    end
+    total_bytes = get_size_repo(data)
     print("In repository " .. total_bytes .. " bytes.")
 
     local main_dir = split.split(repo, "/")[2]
