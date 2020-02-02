@@ -20,4 +20,6 @@ Done
 TODO
 -----
 - [ ] fix size repository
+- [ ] add whitelist
+- [ ] set branch
 - [ ] update to opencomputers
