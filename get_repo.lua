@@ -1,11 +1,13 @@
 local args = {...}
+local pwd = fs.getDir(shell.getRunningProgram())
 local debug = false
 
-local json = loadfile("lib/json.lua")()
-local split = loadfile("lib/split.lua")()
+local json = loadfile(pwd .."/lib/json.lua")()
+local split = loadfile(pwd .."/lib/split.lua")()
+local subrange = loadfile(pwd .."/lib/subrange.lua")()
 
 --[[ for debug
-local print_table = loadfile("lib/print_table.lua")()
+local print_table = loadfile(pwd .. "lib/print_table.lua")()
 --]]
 
 function get_url_files_repo(repo)

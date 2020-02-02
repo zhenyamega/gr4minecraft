@@ -20,7 +20,8 @@ Done
 TODO
 -----
 - [x] fix size repository
-- [ ] add whitelist
-- [ ] add flag for choice branch
-- [ ] add flag for choice output folder
-- [ ] upgrade to opencomputers
+- [ ] add whilelist
+- [ ] add flag for choise branch
+- [ ] add flag for set output branch
+- [ ] add normal instalation
+- [ ] update to opencomputers
